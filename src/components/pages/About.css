@@ -1,0 +1,23 @@
+.about {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about p {
+  line-height: 1.5em;
+}
+
+.about ul {
+  list-style: none;
+}
+
+.about li {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  line-height: 1.5em;
+}

@@ -1,0 +1,16 @@
+.hero {
+  text-align: center;
+}
+
+.hero-header {
+  font-size: 3em;
+}
+
+.hero-text {
+  font-size: 1em !important;
+  color: #fafafa;
+}
+
+.hero-link {
+  font-size: 0.75em;
+}

@@ -1,0 +1,37 @@
+.nav {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 5vw;
+}
+
+@media (min-width: calc(550px + 10vw)) {
+  .nav {
+    padding-left: calc((100vw - 550px - 0.5rem) / 2);
+    padding-right: calc((100vw - 550px - 0.5rem) / 2);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav {
+    display: block;
+  }
+}
+
+.styled-link {
+  line-height: 2;
+  margin: 2rem 0.5rem 0 0;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+.styled-link:last-of-type {
+  margin-right: 0;
+}
+
+.icon-link {
+  color: #d88a83;
+  font-family: 'Paytone One', sans-serif;
+  text-decoration: none;
+  margin-left: 0;
+}
