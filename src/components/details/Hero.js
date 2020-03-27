@@ -13,8 +13,8 @@ const Hero = () => {
           </span>
         </span>
         <p className="hero-text">
-          My name is Stephanie. I'm a Front-End Developer. I like to build
-          things and make them pretty.
+          My name is Stephanie. I'm a Frontend Developer. I like to build things
+          and make them pretty. Let's make cool stuff together!
         </p>
         <p className="hero-link">
           <span role="img" aria-label="glasses emoji">

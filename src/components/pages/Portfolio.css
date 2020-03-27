@@ -1,6 +1,5 @@
 .project-display {
   display: block;
-  max-width: 600px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -10,8 +9,8 @@
 }
 
 .cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
-

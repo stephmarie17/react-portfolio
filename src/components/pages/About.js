@@ -1,10 +1,12 @@
 import React from 'react';
+import myImage from '../../assets/steph_green_door_scotland.jpg';
 import './About.css';
 
 const About = () => {
   return (
     <div className="about">
       <h1>About Me</h1>
+      <img src={myImage} alt="Stephanie Aurelio" style={{ height: "375px", margin: "0 auto", display:"block", borderRadius: "10px"}} />
       <p>
         I'm based in{' '}
         <span role="img" aria-label="palm tree">
@@ -39,7 +41,12 @@ const About = () => {
         <span role="img" aria-label="skateboard">
           🛹
         </span>{' '}
-        skateboard.
+        skateboard. I'm pretty good at RPG video games and I am obsessed with {' '}
+        <span role="img" aria-label="tent">
+          🎪
+        </span>{' '}
+        Renaissance Faires. If I wasn't a Frontend Developer, I'd want to join
+        the circus.
       </p>
 
       <ul>
@@ -50,6 +57,7 @@ const About = () => {
         <li>✔︎ NodeJS & Express</li>
         <li>✔︎ MongoDB</li>
         <li>✔︎ Git</li>
+        <li>...always learning!</li>
       </ul>
     </div>
   );
