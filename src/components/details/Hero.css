@@ -7,10 +7,16 @@
 }
 
 .hero-text {
-  font-size: 1em !important;
+  font-size: 2em !important;
   color: #fafafa;
 }
 
 .hero-link {
-  font-size: 0.75em;
+  font-size: 1.25em;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-text {
+    font-size: 1em !important;
+  }
 }

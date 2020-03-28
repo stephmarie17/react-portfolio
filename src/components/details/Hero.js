@@ -5,13 +5,15 @@ import { Link } from '@reach/router';
 const Hero = () => {
   return (
     <div className="hero">
-      <h1>
+      <header>
         <span className="hero-header">
-          Welcome{' '}
+          <h3>Welcome{' '}
           <span role="img" aria-label="wave hello">
             👋
           </span>
+          </h3>
         </span>
+      </header>
         <p className="hero-text">
           My name is Stephanie. I'm a Frontend Developer. I like to build things
           and make them pretty. Let's make cool stuff together!
@@ -40,7 +42,7 @@ const Hero = () => {
           </span>
           <Link to="/contact">Get in touch</Link>
         </p>
-      </h1>
+      
     </div>
   );
 };
