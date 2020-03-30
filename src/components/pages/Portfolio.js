@@ -14,7 +14,7 @@ const Portfolio = () => {
             </span>
           }
           name="Admin WYSIWYG"
-          description="A content management system enhancement to provide new mobile preview feature for content developers at Mammoth Media. Built with HTML, CSS with Material UI, Javascript, Express, NodeJS, and RESTful API."
+          description="A content management system enhancement to provide new mobile preview feature for content developers at Mammoth Media. Built with HTML, CSS with Semantic UI, Javascript, Express, NodeJS, and RESTful API."
           code="https://github.com/stephmarie17/project-2"
         />
         <ProjectCard
