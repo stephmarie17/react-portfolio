@@ -9,11 +9,11 @@ const ProjectCard = props => {
         {props.name}
       </h3>
       <p>{props.description}</p>
-      <a href={props.code} alt="Link to repo">
+      <a href={props.code} alt="Link to repo" target="_blank" rel="noopener noreferrer">
         <button>Code Repo</button>
       </a>
       {props.deploy ? (
-        <a href={props.deploy} alt="Link to deploy">
+        <a href={props.deploy} alt="Link to deploy" target="_blank" rel="noopener noreferrer">
           <button>Deployed App</button>
         </a>
       ) : (
