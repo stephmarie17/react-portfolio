@@ -7,6 +7,17 @@ const Portfolio = () => {
     <div className="project-display">
       <h1>Projects</h1>
       <div className="cards">
+      <ProjectCard
+          icon={
+            <span role="img" aria-label="light bulb">
+              💡
+            </span>
+          }
+          name="Learn Zoe"
+          description="User interface for Zoe, a program developed by Apelab, for students to learn coding through AR/VR environments. MERN stack application with authentication, RESTful API, and using Context API and Hooks. Deploy is a demo version."
+          code="https://github.com/alexandramj92/zoe-project"
+          deploy="https://zoe-project.herokuapp.com/"
+        />
         <ProjectCard
           icon={
             <span role="img" aria-label="iphone">
