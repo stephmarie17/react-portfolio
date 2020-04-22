@@ -1,0 +1,39 @@
+.contact-form {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form form {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    min-width: 130px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.contact-form input {
+    display: flex;
+    align-items: flex-end;
+    outline: none;
+    min-width: 320px;
+    border: none;
+    border-bottom: 1px solid #fafafa;
+    background-color: #505e7c;
+}
+
+.contact-form textarea {
+    display: flex;
+    align-items: flex-end;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    background-color: #505e7c;
+    border: none;
+}
+
+.contact-form button {
+    font-size: 1em;
+}
