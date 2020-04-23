@@ -5,7 +5,7 @@ import './ContactForm.css';
 const ContactForm = () => {
     return (
         <div className='contact-form'>
-        <form name="contact" method="post" action={navigate('/success')}>
+        <form name="contact" method="post" onSubmit={navigate('/success')}>
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Your Name: <input type="text" name="name"/></label>
