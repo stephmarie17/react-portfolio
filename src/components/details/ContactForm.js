@@ -2,8 +2,6 @@ import React from 'react';
 import './ContactForm.css';
 
 const ContactForm = () => {
-
-  const 
     return (
         <div className='contact-form'>
         <form name="contact" method="post" action="/success">
