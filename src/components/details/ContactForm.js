@@ -1,11 +1,12 @@
 import React from 'react';
-import { navigate } from '@reach/router';
 import './ContactForm.css';
 
 const ContactForm = () => {
+
+  const 
     return (
         <div className='contact-form'>
-        <form name="contact" method="post" onSubmit={navigate('/success')}>
+        <form name="contact" method="post" action="/success">
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Your Name: <input type="text" name="name"/></label>
