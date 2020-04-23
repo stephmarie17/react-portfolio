@@ -4,6 +4,7 @@ import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
+import FormSuccess from '../pages/FormSuccess';
 import { Router } from '@reach/router';
 
 const Container = () => {
@@ -15,6 +16,7 @@ const Container = () => {
         <Portfolio path="/portfolio" />
         <Blog path="/blog" />
         <Contact path="/contact" />
+        <FormSuccess path="/success" />
       </Router>
     </div>
   );
