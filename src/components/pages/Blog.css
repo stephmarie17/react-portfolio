@@ -5,13 +5,14 @@
 }
 
 .blog h1 {
+  color: #e1aa46;
   text-align: center;
 }
 
 .blog h4 {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
-  color: #faf4d0;
+  color: #191919;
 }
 
 #construction-emoji {

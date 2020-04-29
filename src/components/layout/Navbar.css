@@ -1,5 +1,4 @@
 .nav {
-  border-bottom: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 5vw;
@@ -20,9 +19,12 @@
 
 .styled-link {
   line-height: 2;
-  margin: 2rem 0.5rem 0 0;
+  margin: 1.25rem 0 0 0;
   padding: 0.25rem;
   text-decoration: none;
+  color: #65b0bb;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .styled-link:last-of-type {
@@ -30,8 +32,8 @@
 }
 
 .icon-link {
-  color: #d88a83;
-  font-family: 'Paytone One', sans-serif;
+  color: #e1aa46;
+  font-family: 'Elsie Swash Caps', cursive;
   text-decoration: none;
   margin-left: 0;
 }

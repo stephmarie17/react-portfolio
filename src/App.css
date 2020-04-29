@@ -1,6 +1,10 @@
 body {
-  background-color: #394359;
-  color: #fafafa;
+  background-color: #eee;
+  color: #191919;
+  margin: 0;
+  margin-bottom: 100px;
+  min-height: 400px;
+  clear: both;
 }
 
 h1,
@@ -8,19 +12,19 @@ h2,
 h3,
 h4 {
   color: #d88a83;
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'Elsie', cursive;
 }
 
 p {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 a {
-  font-family: 'Cutive Mono', monospace;
-  color: #faf4d0;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #e1aa46;
 }
 
 a:hover {
   font-weight: bold;
-  color: #fcefa7;
+  color: #56432d;
 }
