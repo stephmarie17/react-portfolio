@@ -20,8 +20,9 @@
     outline: none;
     min-width: 320px;
     border: none;
+    padding-top: 10px;
     border-bottom: 1px solid #fafafa;
-    background-color: #505e7c;
+    background-color: #fafafa;
 }
 
 .contact-form textarea {
@@ -30,10 +31,10 @@
     overflow: auto;
     outline: none;
     resize: none;
-    background-color: #505e7c;
+    background-color: #fafafa;
     border: none;
 }
 
 .contact-form button {
-    font-size: 1em;
+    font-size: .75em;
 }

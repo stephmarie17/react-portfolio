@@ -1,12 +1,12 @@
 import React from 'react';
-import myImage from '../../assets/steph_green_door_scotland.jpg';
+import myImage from '../../assets/portfolio-img01.jpg';
 import './About.css';
 
 const About = () => {
   return (
     <div className="about">
       <h1>About Me</h1>
-      <img src={myImage} alt="Stephanie Aurelio" style={{ height: "375px", margin: "0 auto", display:"block", borderRadius: "10px"}} />
+      <img src={myImage} alt="Stephanie Aurelio" id="about-img"/>
       <p>
         I'm based in{' '}
         <span role="img" aria-label="palm tree">
@@ -55,8 +55,7 @@ const About = () => {
         <li>✔︎ JavaScript & jQuery</li>
         <li>✔︎ ReactJS</li>
         <li>✔︎ NodeJS & Express</li>
-        <li>✔︎ MongoDB</li>
-        <li>✔︎ Git</li>
+        <li>✔︎ NoSQL & MySQL</li>
         <li>...always learning!</li>
       </ul>
     </div>

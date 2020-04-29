@@ -1,23 +1,38 @@
 .about {
   display: block;
-  max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+#about-img {
+  float: right;
+  height: 350px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 25%;
 }
 
 .about h1 {
+  color: #e1aa46;
   text-align: center;
 }
 
 .about p {
   line-height: 1.5em;
+  padding: 0 20px 0 20px;
 }
 
 .about ul {
   list-style: none;
 }
 
+.about ul h3 {
+  color: #e1aa46;
+}
+
 .about li {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: bold;
   line-height: 1.5em;
+  padding: 0 10px 0 10px;
 }
