@@ -14,17 +14,20 @@
 @media screen and (max-width: 375px) {
   .nav {
     display: block;
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-size: 0.75em;
   }
 }
 
 .styled-link {
-  line-height: 2;
+  line-height: 0.25;
   margin: 1.25rem 0 0 0;
   padding: 0.25rem;
   text-decoration: none;
   color: #1c2143;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
 }
 
 .styled-link:last-of-type {

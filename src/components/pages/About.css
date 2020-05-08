@@ -52,6 +52,16 @@
 
 @media screen and (max-width: 520px) {
   #about-img {
+    height: 250px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #about-img {
+    height: 200px;
     float: none;
     display: block;
     margin: 0 auto;

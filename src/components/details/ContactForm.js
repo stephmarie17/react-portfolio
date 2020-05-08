@@ -64,7 +64,6 @@ const ContactForm = () => {
             Message:{' '}
             <textarea
               name="message"
-              cols="50"
               rows="5"
               placeholder="Type your message here..."
               onChange={handleChange}
