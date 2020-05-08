@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div className="project-display">
       <h1>Projects</h1>
       <div className="cards">
-      <ProjectCard
+        <ProjectCard
           icon={
             <span role="img" aria-label="light bulb">
               💡
@@ -41,17 +41,6 @@ const Portfolio = () => {
         />
         <ProjectCard
           icon={
-            <span role="img" aria-label="rainbow">
-              🌈
-            </span>
-          }
-          name="Gradient Background Generator"
-          description="Create a gradient background easily with this simple generator. Built with HTML, CSS, and Javascript. Hosted on GitHub Pages."
-          code="https://github.com/stephmarie17/background-generator"
-          deploy="https://stephmarie17.github.io/background-generator/"
-        />
-        <ProjectCard
-          icon={
             <span role="img" aria-label="clipboard">
               📋
             </span>
@@ -60,6 +49,28 @@ const Portfolio = () => {
           description="A full stack MERN application with user registration and login authentication and CRUD functionality. Deployed on Heroku."
           code="https://github.com/stephmarie17/contact-keeper"
           deploy="https://frozen-earth-46999.herokuapp.com/login"
+        />
+        <ProjectCard
+          icon={
+            <span role="img" aria-label="books">
+              📚
+            </span>
+          }
+          name="ReadIt"
+          description="A frontend application built in React paginating top posts from the Reddit API. Uses Hooks and Axios. Deployed on Netlify."
+          code="https://github.com/stephmarie17/readit"
+          deploy="https://cocky-swartz-f47a14.netlify.app/"
+        />
+        <ProjectCard
+          icon={
+            <span role="img" aria-label="rainbow">
+              🌈
+            </span>
+          }
+          name="Gradient Background Generator"
+          description="Create a gradient background easily with this simple generator. Built with HTML, CSS, and Javascript. Hosted on GitHub Pages."
+          code="https://github.com/stephmarie17/background-generator"
+          deploy="https://stephmarie17.github.io/background-generator/"
         />
       </div>
     </div>

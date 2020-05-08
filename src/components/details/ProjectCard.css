@@ -23,4 +23,5 @@ button {
   font-size: 1em;
   cursor: pointer;
   margin: 2px;
+  border: none;
 }

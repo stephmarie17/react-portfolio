@@ -39,6 +39,7 @@
 .masthead button {
   font-family: 'Bebas Neue', cursive;
   font-weight: normal;
+  width: 275px;
   background: #f3cd74;
   border-radius: 21px;
   display: inline-block;
