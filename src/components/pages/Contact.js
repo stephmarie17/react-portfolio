@@ -6,8 +6,11 @@ const Contact = () => {
   return (
     <div className="contact">
       <h1>Contact Me</h1>
-      <p>Let's work together! Or, send me a random note or a link to your dog's IG.</p>
-        <ContactForm />
+      <p>
+        Let's work together! Or, send me a random note or a link to your dog's
+        IG.
+      </p>
+      <ContactForm />
     </div>
   );
 };

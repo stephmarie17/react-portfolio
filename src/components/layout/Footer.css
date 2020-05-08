@@ -8,7 +8,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 footer p {
@@ -19,8 +19,4 @@ footer p {
 .social-icons {
   padding: 5px;
   font-size: 2rem;
-}
-
-#photo-credit {
-  font-size: 0.5em;
 }

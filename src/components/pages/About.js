@@ -1,12 +1,12 @@
 import React from 'react';
-import myImage from '../../assets/portfolio-img01.jpg';
+import myImage from '../../assets/portfolio-img.jpg';
 import './About.css';
 
 const About = () => {
   return (
     <div className="about">
       <h1>About Me</h1>
-      <img src={myImage} alt="Stephanie Aurelio" id="about-img"/>
+      <img src={myImage} alt="Stephanie Aurelio" id="about-img" />
       <p>
         I'm based in{' '}
         <span role="img" aria-label="palm tree">
@@ -41,7 +41,7 @@ const About = () => {
         <span role="img" aria-label="skateboard">
           🛹
         </span>{' '}
-        skateboard. I'm pretty good at RPG video games and I am obsessed with {' '}
+        skateboard. I'm pretty good at RPG video games and I am obsessed with{' '}
         <span role="img" aria-label="tent">
           🎪
         </span>{' '}
@@ -51,12 +51,14 @@ const About = () => {
 
       <ul>
         <h3>Tech Skills</h3>
-        <li>✔︎ HTML5 & CSS3</li>
-        <li>✔︎ JavaScript & jQuery</li>
-        <li>✔︎ ReactJS</li>
-        <li>✔︎ NodeJS & Express</li>
-        <li>✔︎ NoSQL & MySQL</li>
-        <li>...always learning!</li>
+        <li>HTML5 & CSS3</li>
+        <li>CSS Frameworks</li>
+        <li>JavaScript & jQuery</li>
+        <li>ReactJS</li>
+        <li>NodeJS & Express</li>
+        <li>NoSQL & MySQL</li>
+        <li>Git Version Control</li>
+        <li>User Experience</li>
       </ul>
     </div>
   );

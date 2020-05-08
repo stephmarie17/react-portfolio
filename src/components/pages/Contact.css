@@ -1,11 +1,13 @@
 .contact {
   display: block;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .contact h1 {
-  color: #e1aa46;
+  color: #5dcad1;
+  font-weight: normal;
+  text-align: left;
+  font-size: 4em;
+  margin-top: 0;
 }
-

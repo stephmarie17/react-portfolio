@@ -26,9 +26,6 @@ const Footer = () => {
           <i className="fab fa-instagram-square" />
         </a>
       </div>
-      <p id='photo-credit'>
-        Photo by <a href="https://unsplash.com/@fezbot2000?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" alt="Fezbot2000">Fezbot2000</a> on <a href="https://unsplash.com/" alt="unsplash">Unsplash</a>.
-      </p>
       <p>
         © Stephanie Aurelio | <span id="year">{setYear()}</span>
       </p>

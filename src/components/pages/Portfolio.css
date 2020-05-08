@@ -1,12 +1,15 @@
 .project-display {
   display: block;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .project-display h1 {
-  color: #e1aa46;
-  text-align: center;
+  color: #5dcad1;
+  font-weight: normal;
+  text-align: left;
+  font-size: 4em;
+  margin-top: 0;
 }
 
 .cards {

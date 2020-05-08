@@ -1,23 +1,22 @@
 .blog {
   display: block;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 20px;
+  padding: 20px;
 }
 
 .blog h1 {
-  color: #e1aa46;
-  text-align: center;
+  color: #5dcad1;
+  font-weight: normal;
+  text-align: left;
+  font-size: 4em;
+  margin-top: 0;
 }
 
 .blog h4 {
-  font-family: 'Merriweather Sans', sans-serif;
-  text-align: center;
+  font-family: 'Jost', sans-serif;
   color: #191919;
 }
 
 #construction-emoji {
   font-size: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

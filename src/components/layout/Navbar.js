@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="nav">
       <h1>
         <Link to="/" className="icon-link">
-          SA{' '}
+          {`<SA/>`}{' '}
         </Link>
       </h1>
       <Link to="/about" className="styled-link">

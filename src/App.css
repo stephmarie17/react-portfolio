@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: white;
   color: #191919;
   margin: 0;
   margin-bottom: 100px;
@@ -12,19 +12,18 @@ h2,
 h3,
 h4 {
   color: #d88a83;
-  font-family: 'Elsie', cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 p {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 a {
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #e1aa46;
+  font-family: 'Jost', sans-serif;
+  color: #1c2143;
 }
 
 a:hover {
-  font-weight: bold;
-  color: #56432d;
+  color: #f3cd74;
 }

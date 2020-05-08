@@ -22,7 +22,7 @@
   margin: 1.25rem 0 0 0;
   padding: 0.25rem;
   text-decoration: none;
-  color: #65b0bb;
+  color: #1c2143;
   display: flex;
   justify-content: space-evenly;
 }
@@ -32,8 +32,7 @@
 }
 
 .icon-link {
-  color: #e1aa46;
-  font-family: 'Elsie Swash Caps', cursive;
+  font-family: 'Bebas Neue', cursive;
   text-decoration: none;
   margin-left: 0;
 }
