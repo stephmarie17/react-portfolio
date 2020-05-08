@@ -14,10 +14,13 @@
 }
 
 button {
-  background-color: #fcefa7;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #f3cd74;
+  width: 100px;
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1em;
   cursor: pointer;
   margin: 2px;
 }
