@@ -2,7 +2,7 @@
   background-color: #1c2143;
   text-align: left;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -19,7 +19,7 @@
   display: flex;
   align-items: flex-end;
   outline: none;
-  min-width: 320px;
+  width: 70%;
   border: none;
   padding: 10px;
   margin-left: 20px;
@@ -46,7 +46,7 @@
   font-family: 'Bebas Neue', cursive;
   background-color: #f3cd74;
   width: 100px;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-left: 20px;
   margin-bottom: 20px;
 }

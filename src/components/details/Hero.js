@@ -7,10 +7,11 @@ const Hero = () => {
     <div>
       <section className="masthead">
         <section className="text-top">
-          <h1>Hi, I'm Stephanie</h1>
+          <h1>Hi, I'm Stephanie Aurelio</h1>
           <h2>
-            I'm a software developer specializing in frontend user interfaces. I
-            like to build things and make them pretty.
+            You can call me Steph. I'm a software developer specializing in
+            frontend user interfaces. I like to build things and make them
+            pretty.
           </h2>
         </section>
         <section className="text-bottom">

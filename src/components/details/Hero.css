@@ -20,7 +20,6 @@
   font-size: 8vmin;
   letter-spacing: 0.03em;
   line-height: 1;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
   margin-bottom: 30px;
   text-align: left;
   padding-top: 10px;
@@ -32,7 +31,7 @@
   font-size: 1.75em;
   justify-content: left;
   text-align: left;
-  max-width: 75%;
+  max-width: 70%;
   color: #1c2143;
 }
 
