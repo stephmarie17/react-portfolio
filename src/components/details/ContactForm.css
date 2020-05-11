@@ -1,5 +1,5 @@
 .contact-form form {
-  background-color: #1c2143;
+  color: #1c2143;
   text-align: left;
   border-radius: 10px;
   max-width: 100%;
@@ -11,7 +11,6 @@
   text-align: left;
   padding-top: 10px;
   padding-left: 20px;
-  color: white;
   margin-top: 10px;
 }
 
@@ -23,9 +22,8 @@
   border: none;
   padding: 10px;
   margin-left: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #1c2143;
   background-color: #fafafa;
-  border-radius: 5px;
 }
 
 .contact-form textarea {
@@ -34,11 +32,11 @@
   overflow: auto;
   outline: none;
   resize: none;
-  background-color: white;
+  background-color: #fafafa;
   padding: 10px;
   margin-left: 20px;
-  border-radius: 5px;
-  border: none;
+  border-radius: 2px;
+  border: 1px solid #1c2143;
   width: 70%;
 }
 
