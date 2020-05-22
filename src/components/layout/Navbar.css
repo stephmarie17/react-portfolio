@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 5vw;
+  margin-bottom: 10px;
+  background-color: transparent;
 }
 
 @media (min-width: calc(550px + 10vw)) {
@@ -22,7 +24,7 @@
 
 .styled-link {
   line-height: 0.25;
-  margin: 1.25rem 0 0 0;
+  margin: 2rem 0 0 0;
   padding: 0.25rem;
   text-decoration: none;
   color: #1c2143;
@@ -38,4 +40,10 @@
   font-family: 'Bebas Neue', cursive;
   text-decoration: none;
   margin-left: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .styled-link {
+    margin: 1rem 0 0 0;
+  }
 }

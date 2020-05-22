@@ -1,5 +1,6 @@
 .blog {
   display: block;
+  max-width: 75%;
   margin: 20px;
   padding: 20px;
 }
