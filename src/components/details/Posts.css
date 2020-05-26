@@ -1,0 +1,36 @@
+.posts-display {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-item {
+  border-top: 2px #1c2143 solid;
+}
+
+.post-item:last-of-type {
+  border-bottom: 2px #1c2143 solid;
+}
+
+.blog-cover-img {
+  padding-top: 20px;
+  max-width: 100%;
+  display: flex;
+}
+
+.posts-display h2 {
+  color: #1c2143;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

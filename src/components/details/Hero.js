@@ -32,14 +32,14 @@ const Hero = () => {
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M562.44148,223.84865c43.93909,9.501,91.91,25.90257,140.23563,49.05024a670.77416,670.77416,0,0,1,100.10271,58.75124"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <line
             x1="235.63007"
@@ -48,63 +48,63 @@ const Hero = () => {
             y2="832.57322"
             fill="none"
             stroke="#3f3d56"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M521.327,216.81667c13.20369,1.62338,26.94958,3.9691,41.11448,7.032"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M392.11174,354.5821c-24.39394-35.69909-32.77388-69.42793-20.24052-95.594,13.86242-28.94072,50.969-43.745,101.26849-44.83538"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M905.80958,434.31808c20.33267,32.73115,26.64112,63.41772,15.044,87.62915-10.20553,21.3062-33.0092,34.95053-64.40046,41.10164"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M802.77982,331.65013a498.103,498.103,0,0,1,57.61868,47.75645"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M378.60511,172.31546c40.4919-8.699,92.89066-7.15266,151.49348,4.39916"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M967.94282,434.31434c18.12773,26.47986,29.27651,52.10442,32.19046,75.44012"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M779.44384,273.11963q27.27426,15.76946,51.89931,32.61952"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M805.50068,663.14119a25.07063,25.07063,0,0,0-21.61027,15.10974c-5.40367,13.062,1.55395,28.40526,11.99861,37.9302s23.86146,14.96932,36.05174,22.12559c16.37359,9.61206,31.08659,22.95519,39.27922,40.08315s9.064,38.34453-.56607,54.70753c-8.93834,15.18767-25.1912,24.27742-40.69221,32.66062"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#3f3d56"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <ellipse
             cx="638.71022"
@@ -230,14 +230,14 @@ const Hero = () => {
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <path
             d="M550.89321,524.8925c-44.792-23.20619-85.34351-49.00584-120.31229-75.86668"
             transform="translate(-180.55665 -32.42726)"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <circle cx="53.70022" cy="76.07809" r="53.70022" fill="#5dcad1" />
           <circle
@@ -246,7 +246,7 @@ const Hero = () => {
             r="53.70022"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <circle cx="800.31415" cy="270.04378" r="31.24377" fill="#f2f2f2" />
           <circle
@@ -255,7 +255,7 @@ const Hero = () => {
             r="31.24377"
             fill="none"
             stroke="#2f2e41"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <circle cx="230.36251" cy="595.72871" r="44.91291" fill="#f2f2f2" />
           <circle
