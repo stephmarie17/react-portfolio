@@ -5,30 +5,28 @@
 }
 
 .post-item {
-  border-top: 2px #1c2143 solid;
-}
-
-.post-item:last-of-type {
-  border-bottom: 2px #1c2143 solid;
+  background-color: #f3f3f3;
 }
 
 .blog-cover-img {
-  padding-top: 20px;
   max-width: 100%;
   display: flex;
 }
 
-.posts-display h2 {
+.posts-display h2,
+p {
   color: #1c2143;
+  padding: 0 5px 5px 5px;
 }
 
-a {
+.posts-display a {
+  font-weight: bold;
   text-decoration: none;
 }
 
 ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 
 li {

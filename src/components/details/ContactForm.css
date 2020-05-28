@@ -1,9 +1,9 @@
 .contact-form form {
   color: #1c2143;
   text-align: left;
-  border-radius: 10px;
-  max-width: 100%;
+  max-width: 75%;
   padding: 10px;
+  background-color: #f3f3f3;
 }
 
 .contact-form label {

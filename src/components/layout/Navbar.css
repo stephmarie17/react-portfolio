@@ -6,6 +6,13 @@
   background-color: transparent;
 }
 
+.nav li {
+  display: inline-flex;
+  line-height: 0.25;
+  margin: 2rem 0 0 0;
+  padding: 0 1rem 0 1rem;
+}
+
 @media (min-width: calc(550px + 10vw)) {
   .nav {
     padding-left: calc((100vw - 550px - 0.5rem) / 2);
@@ -13,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .nav {
     display: block;
     margin-bottom: 5px;
@@ -23,12 +30,8 @@
 }
 
 .styled-link {
-  line-height: 0.25;
-  margin: 2rem 0 0 0;
-  padding: 0.25rem;
   text-decoration: none;
   color: #1c2143;
-  display: flex;
   justify-content: right;
 }
 

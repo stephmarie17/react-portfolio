@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }
 
@@ -61,30 +61,23 @@
   outline-offset: -4px;
 }
 
-.hero-svg {
-  padding: 10px;
-  position: relative;
+#hero-graphic {
   display: flex;
-  bottom: 275px;
-  left: 500px;
-  margin: 10px;
-  max-height: 300px;
+  position: relative;
+  left: 70%;
+  bottom: 200px;
 }
 
 @media screen and (max-width: 550px) {
   .masthead h2 {
     font-size: 1.25em;
   }
-}
 
-@media screen and (max-width: 1240px) {
-  .hero-svg {
-    display: flex;
-    top: 50px;
-    left: 0px;
-    margin-bottom: 100px;
-    min-height: 200px;
-    margin-right: 10px;
+  #hero-graphic {
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
   }
 }
 
@@ -96,12 +89,5 @@
 
   .masthead button {
     width: 200px;
-  }
-
-  .hero-svg {
-    display: block;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
   }
 }

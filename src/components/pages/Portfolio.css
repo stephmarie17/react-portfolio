@@ -1,7 +1,8 @@
 .project-display {
   display: block;
-  margin: 20px;
+  margin: 0;
   padding: 20px;
+  max-width: 75%;
 }
 
 .project-display h1 {

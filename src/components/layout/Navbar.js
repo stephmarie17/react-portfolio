@@ -10,18 +10,20 @@ const Navbar = () => {
           {`<SA/>`}{' '}
         </Link>
       </h1>
-      <Link to="/about" className="styled-link">
-        About
-      </Link>{' '}
-      <Link to="/portfolio" className="styled-link">
-        Portfolio
-      </Link>{' '}
-      <Link to="/blog" className="styled-link">
-        Blog
-      </Link>{' '}
-      <Link to="/contact" className="styled-link">
-        Contact
-      </Link>
+      <ul>
+        <Link to="/about" className="styled-link">
+          <li>About</li>
+        </Link>
+        <Link to="/portfolio" className="styled-link">
+          <li>Portfolio</li>
+        </Link>
+        <Link to="/blog" className="styled-link">
+          <li>Blog</li>
+        </Link>
+        <Link to="/contact" className="styled-link">
+          <li>Contact</li>
+        </Link>
+      </ul>
     </div>
   );
 };
