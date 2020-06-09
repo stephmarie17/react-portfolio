@@ -83,13 +83,18 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .masthead {
     margin: 0;
     width: 100%;
+    padding-top: 10px;
   }
 
   .masthead button {
     width: 200px;
+  }
+
+  #hero-graphic {
+    height: 30rem;
   }
 }

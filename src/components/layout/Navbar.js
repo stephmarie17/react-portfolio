@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div className="nav">
-      <h1>
+      <h1 className="logo">
         <Link to="/" className="icon-link">
           {`<SA/>`}{' '}
         </Link>
