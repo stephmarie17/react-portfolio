@@ -1,7 +1,8 @@
 .about {
   display: block;
-  margin: 20px;
   padding: 20px;
+  width: 90%;
+  margin: auto;
 }
 
 #about-img {
@@ -17,7 +18,7 @@
   color: #5dcad1;
   font-weight: normal;
   text-align: left;
-  font-size: 4em;
+  font-size: 6rem;
   margin-top: 0;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .about ul h3 {
-  font-size: 2em;
+  font-size: 4rem;
   color: #5dcad1;
 }
 
@@ -49,6 +50,7 @@
   display: inline-block;
   line-height: 1.5em;
   cursor: default;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 520px) {

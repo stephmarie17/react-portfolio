@@ -63,6 +63,17 @@ const Portfolio = () => {
         />
         <ProjectCard
           icon={
+            <span role="img" aria-label="laptop">
+              💻
+            </span>
+          }
+          name="Responsive Web Design Template"
+          description="Demo web design for a yoga & wellness brand. Fully responsive with animated hamburger menu navigation."
+          code="https://github.com/stephmarie17/responsive-layout"
+          deploy="https://stephmarie17.github.io/responsive-layout/"
+        />
+        <ProjectCard
+          icon={
             <span role="img" aria-label="rainbow">
               🌈
             </span>

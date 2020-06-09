@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
 body {
   background-color: white;
   color: #191919;
@@ -15,15 +24,29 @@ h4 {
   font-family: 'Bebas Neue', cursive;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
 p {
   font-family: 'Jost', sans-serif;
+  font-size: 2rem;
 }
 
 a {
   font-family: 'Jost', sans-serif;
   color: #1c2143;
+  transition: color 0.5s ease-in-out;
 }
 
 a:hover {
+  color: #f3cd74;
+}
+
+a:focus {
   color: #f3cd74;
 }
