@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 2rem;
   margin-bottom: 10px;
@@ -13,10 +14,11 @@
 
 .nav li {
   display: inline-flex;
+  flex-wrap: wrap;
   line-height: 0.25;
   margin: 2rem 0 0 0;
   padding: 0 1rem 0 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 @media (min-width: calc(550px + 10vw)) {
@@ -33,6 +35,10 @@
     background-color: transparent;
     font-size: 1rem;
   }
+
+  .nav li {
+    font-size: 2rem;
+  }
 }
 
 .styled-link {
@@ -41,14 +47,31 @@
   justify-content: right;
 }
 
+.styled-link:hover {
+  background-color: #e7d4fa;
+}
+
 .styled-link:last-of-type {
   margin-right: 0;
 }
 
 .icon-link {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
   margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gardient(
+    -45deg,
+    rgba(0, 0, 0, 0, 0.22),
+    rgba(244, 234, 255, 0.25)
+  );
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  height: 75px;
+  width: 200px;
 }
 
 @media screen and (max-width: 440px) {

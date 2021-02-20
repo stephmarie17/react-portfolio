@@ -3,10 +3,14 @@
   padding: 20px;
   width: 90%;
   margin: auto;
+  background-image: url('../../assets/rainbowreading.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 400px;
 }
 
 .blog h1 {
-  color: #5dcad1;
+  color: #171b35;
   font-weight: normal;
   text-align: left;
   font-size: 6rem;

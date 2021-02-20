@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { Link } from '@reach/router';
-import knowledge from '../../assets/knowledge.png';
+import laptop from '../../assets/techgirl.png';
 
 const Hero = () => {
   return (
@@ -16,16 +16,16 @@ const Hero = () => {
           </h2>
         </section>
         <section className="text-bottom">
+          <img
+            id="hero-graphic"
+            src={laptop}
+            alt="Lavender laptop with cute hearts"
+            height="400"
+          />
           <Link to="/about">
             <button>Learn more</button>
           </Link>
         </section>
-        <img
-          id="hero-graphic"
-          src={knowledge}
-          alt="Woman thinking at a computer"
-          height="400"
-        />
       </section>
     </div>
   );
