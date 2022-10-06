@@ -1,19 +1,17 @@
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 2rem;
-  margin-bottom: 10px;
-  background-color: transparent;
-  min-height: 10vh;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 8vh;
   width: 90%;
   margin: auto;
+  padding: 1rem 0 1rem 0;
 }
 
 .nav li {
   display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   line-height: 0.25;
   margin: 2rem 0 0 0;
@@ -21,12 +19,6 @@
   font-size: 2.5rem;
 }
 
-@media (min-width: calc(550px + 10vw)) {
-  .nav {
-    padding-left: calc((100vw - 550px - 0.5rem) / 2);
-    padding-right: calc((100vw - 550px - 0.5rem) / 2);
-  }
-}
 
 @media screen and (max-width: 942px) {
   .nav {
@@ -49,6 +41,7 @@
 
 .styled-link:hover {
   background-color: #e7d4fa;
+  transition: background-color 0.75s;
 }
 
 .styled-link:last-of-type {
@@ -62,16 +55,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gardient(
-    -45deg,
-    rgba(0, 0, 0, 0, 0.22),
-    rgba(244, 234, 255, 0.25)
-  );
-  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   border-radius: 50px;
   height: 75px;
   width: 200px;
+  border: 0.25rem solid #1c2143;
+}
+
+.icon-link:hover {
+  background-color: #e7d4fa;
+  transition: 0.75s;
 }
 
 @media screen and (max-width: 440px) {
@@ -80,9 +72,8 @@
   }
 
   .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 4rem;
   }
 }

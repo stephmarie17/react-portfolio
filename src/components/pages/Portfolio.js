@@ -5,7 +5,7 @@ import './Portfolio.css';
 const Portfolio = () => {
   return (
     <div className="project-display">
-      <h1>Projects</h1>
+      <h1>Development Projects</h1>
       <div className="cards">
         <ProjectCard
           icon={
@@ -41,17 +41,6 @@ const Portfolio = () => {
         />
         <ProjectCard
           icon={
-            <span role="img" aria-label="clipboard">
-              📋
-            </span>
-          }
-          name="ContactKeeper"
-          description="A full stack MERN application with user registration and login authentication and CRUD functionality. Deployed on Heroku."
-          code="https://github.com/stephmarie17/contact-keeper"
-          deploy="https://frozen-earth-46999.herokuapp.com/login"
-        />
-        <ProjectCard
-          icon={
             <span role="img" aria-label="books">
               📚
             </span>
@@ -72,17 +61,20 @@ const Portfolio = () => {
           code="https://github.com/stephmarie17/responsive-layout"
           deploy="https://stephmarie17.github.io/responsive-layout/"
         />
+      </div>
+      <h1>Technical Writing Samples</h1>
+      <div className="cards">
         <ProjectCard
           icon={
-            <span role="img" aria-label="rainbow">
-              🌈
+            <span role="img" aria-label="pen">
+              🖋
             </span>
           }
-          name="Gradient Background Generator"
-          description="Create a gradient background easily with this simple generator. Built with HTML, CSS, and Javascript. Hosted on GitHub Pages."
-          code="https://github.com/stephmarie17/background-generator"
-          deploy="https://stephmarie17.github.io/background-generator/"
+          name="Writing Samples"
+          description="A selection of writing samples and example technical courses."
+          code="https://github.com/stephmarie17/writing-samples"
         />
+
       </div>
     </div>
   );

@@ -10,9 +10,7 @@ const Hero = () => {
         <section className="text-top">
           <h1>Hi, I'm Stephanie Aurelio</h1>
           <h2>
-            You can call me Steph. I'm a software developer specializing in
-            frontend user interfaces. I like to build things and make them
-            pretty.
+            You can call me Steph. I'm a former librarian turned software developer and technical writer.
           </h2>
         </section>
         <section className="text-bottom">
