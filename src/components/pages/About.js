@@ -8,66 +8,47 @@ const About = () => {
       <div class="heading">
         <h1>About Me</h1>
       </div>
-      <img src={myImage} alt="Stephanie Aurelio" id="about-img" />
-      <p>
-        I'm based in{' '}
-        <span role="img" aria-label="palm tree">
-          🌴
-        </span>{' '}
-        Los Angeles, CA. Currently, I work as a frontend developer for{' '}
-        <a href="https://www.heroforge.com" title={'Hero Forge'}>
-          Hero Forge
-        </a>{' '}
-        specializing in user interfaces and static pages built with React. I
-        write a lot of CSS, HTML, and JavaScript, and love that I get to work
-        with amazing artists and talented devs every day delivering a product
-        that brings people joy.
-      </p>
-      <p>
-        Before becoming a developer, I was a{' '}
-        <span role="img" aria-label="books">
-          📚
-        </span>{' '}
-        librarian for four years after earning a Master's in Library and
-        Information Science from SJSU. Many people aren't sure what a librarian
-        does; basically, we find, curate, and organize information for people in
-        a systematic way.
-      </p>
-      <p>
-        My love for problem solving, data management, and organization led me to
-        discovering a passion for{' '}
-        <span role="img" aria-label="laptop">
-          💻
-        </span>{' '}
-        coding. To grow my skills, I quit my library job to learn to code
-        full-time. In March 2020, I obtained a Full-Stack Coding Certificate
-        from{' '}
-        <span role="img" aria-label="graduation cap">
-          🎓
-        </span>{' '}
-        UCLA.
-      </p>
-      <p>
-        Besides coding, I spend my time reading, practicing yoga, and hanging
-        out with my dog. I'm pretty good at RPG video games and I am obsessed
-        with{' '}
-        <span role="img" aria-label="tent">
-          🎪
-        </span>{' '}
-        Renaissance Faires. If I wasn't a Frontend Developer, I'd want to join
-        the circus.
-      </p>
+      <div className="about-content-main">
+        <img src={myImage} alt="Stephanie Aurelio" id="about-img" />
+        <div className="about-content-text">
+          <p>
+            I'm a technical writer with a developer-focus based in Los Angeles, CA. Before working in tech, I was a librarian for four years, with a Master's in Library and Information from San Jose State University.
+            However, my love for technology, learning new things, and problem solving led me to development and, in 2019, I pursued a Full-Stack Coding Bootcamp through UCLA. 
+            In that program, I completed projects for LA clients such as <em>Mammoth Media</em> and <em>Zoe</em>, earning my certificate in March 2020. 
+          </p>
+          <p>
+            After obtaining my cert, I worked on <a href="https://www.heroforge.com/">Hero Forge</a> at <em>Sky Castle Studios</em> as a frontend developer. As a developer, I worked on
+            the user interface using React. Major projects included a UI redesign and documenting the new design system, design updates to static pages using HTML, CSS, and JavaScript, and implementing
+            the Hero Forge Pro subscription from wireframes to product launch.
+          </p>
+          <p>
+            Combining my passion for development along with organizing and analyzing information with my library science background, I currently work as a technical writer.
+            As a technical writer at <em>Twilio</em>, I have created content for Partner Enablement, including writing onboarding documentation, coding proof-of-concept apps, writing trainings for multiple personas,
+            and creating media using tools such as Articulate360. I am passionate about crafting technical content to diverse users, and developing tools and applications rooted in empathy for the end-user.
+          </p>
+          </div>
+      </div>
       <div classname="about-skills">
         <h3>Tech Skills</h3>
         <ul>
           <li>HTML5 & CSS3</li>
           <li>CSS Frameworks</li>
-          <li>JavaScript & jQuery</li>
+          <li>JavaScript</li>
           <li>ReactJS</li>
           <li>NodeJS & Express</li>
           <li>NoSQL & MySQL</li>
           <li>Git Version Control</li>
           <li>User Experience</li>
+          <li>Wireframes</li>
+          <li>Responsive Design</li>
+        </ul>
+        <h3>Content Creation Skills</h3>
+        <ul>
+          <li>Writing</li>
+          <li>Editing</li>
+          <li>Instructional Design</li>
+          <li>SME Management</li>
+          <li>Feedback Loop</li>
         </ul>
       </div>
     </div>
